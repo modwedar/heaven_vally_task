@@ -21,7 +21,7 @@ class SessionCardWhite extends StatelessWidget {
               color: Colors.white,
               borderRadius: BorderRadius.circular(12.r),
               boxShadow: [
-                BoxShadows.blackShadow
+                BoxShadows.greyShadow
               ]
             ),
             padding: EdgeInsets.all(12.w),
