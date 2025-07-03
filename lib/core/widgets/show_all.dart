@@ -11,7 +11,7 @@ class ShowAll extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       width: 67.w,
-      height: 25.w,
+      height: 22.w,
       decoration: BoxDecoration(
         color: Colors.white,
         boxShadow: [

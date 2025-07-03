@@ -35,4 +35,10 @@ class TextStyles {
     color: Colors.white,
   );
 
+  static TextStyle font11BlackRegular = TextStyle(
+    fontSize: 11.sp,
+    fontWeight: FontWeightHelper.regular,
+    color: Colors.black,
+  );
+
 }
