@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:heaven_vally_task/core/theming/box_shadows.dart';
 
 class IconBadge extends StatelessWidget {
   final double width, height;
@@ -16,12 +17,7 @@ class IconBadge extends StatelessWidget {
         color: Colors.white,
         shape: BoxShape.circle,
         boxShadow: [
-          BoxShadow(
-            color: Colors.black.withValues(alpha: 0.25),
-            offset: Offset(0, 4),
-            blurRadius: 4,
-            spreadRadius: 0,
-          ),
+          BoxShadows.blackShadow
         ],
       ),
       child: Center(

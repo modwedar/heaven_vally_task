@@ -3,6 +3,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:heaven_vally_task/features/home/presentation/widgets/welcome_section.dart';
 
 import '../../../banners/presentation/widgets/banner_carousel.dart';
+import '../widgets/next_session.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -18,7 +19,8 @@ class HomeScreen extends StatelessWidget {
             spacing: 40.h,
             children: [
               WelcomeSection(),
-              BannerCarousel()
+              BannerCarousel(),
+              NextSession()
             ],
           ),
         ),
